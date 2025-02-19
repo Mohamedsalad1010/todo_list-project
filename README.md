@@ -1,2 +1,5 @@
 # TODO-LIST PROJECT
-this is project is simple todo list  i was built to increasing my exprience about coding 
+this is simple  **todo list project**  allowed users to write their tasks to manage
+this project increase my exprience code
+this project was built  
+HTML CSS AND JS  
