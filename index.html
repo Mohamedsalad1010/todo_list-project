@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo listApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container-todoApp">
+        <div class="container-status">
+            <div class="detalis">
+                <h2>Todo Done</h2>
+                <p>keep it up</p>
+                <div class="progressBar" id="progressBar">
+                <div id="progress"></div>
+                </div>
+            </div>
+
+<div class="status-number">
+ <p id="number">0/0</p>
+</div>
+        </div>
+
+        <!-- form -->
+
+        <form action="#" id="form">
+            <input type="text" id="inputForm" placeholder="write here your tasks " required>
+            <button type="submit" id="buttonForm"><i class="fa-solid fa-plus"></i></button>
+        </form>
+
+        <!-- result  -->
+         <div class="lists">
+            <ul id="task-list" >
+                <!-- <li class="todo-Item">
+                 <input class= "checkbox" type= "checkbox"> </input>
+                 <span class="task" >mmdd</span>
+                 <button class="editBtn"> <i class="fa-regular fa-pen-to-square"></i></button> 
+                <button class="deleteBtn"> <i class="fa-solid fa-trash"></i></button>
+                
+                </li> -->
+           
+         </div>
+
+
+    </div>
+
+
+    <script src="./main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
